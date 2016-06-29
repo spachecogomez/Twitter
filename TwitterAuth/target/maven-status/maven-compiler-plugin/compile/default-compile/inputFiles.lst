@@ -1,0 +1,11 @@
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/entities/Constants.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/Main.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/twitterapimanager/TwitterLoginManager.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/processing/TrendsProcessing.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/entities/Tweet.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/repositories/TrendRepository.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/SpringMongoConfig.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/entities/Trend.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/twitterapimanager/TwitterLoginProps.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/twitterapimanager/exception/TwitterNotAuthenticatedException.java
+/home/sebastian/NetBeansProjects/TwitterAuth/src/main/java/com/mycompany/twitterauth/twitterapimanager/exception/TwitterAPIException.java

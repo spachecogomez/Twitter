@@ -1,0 +1,26 @@
+    <?xml version=”1.0″ encoding=”UTF-8″?>
+    <beans xmlns=”http://www.springframework.org/schema/beans&#8221;
+    xmlns:xsi=”http://www.w3.org/2001/XMLSchema-instance&#8221; xmlns:mongo=”http://www.springframework.org/schema/data/mongo&#8221;
+    xmlns:context=”http://www.springframework.org/schema/context&#8221;
+    xsi:schemaLocation=”http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/data/mongo
+    http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd”&gt;
+
+    <beans profile="local">
+    <context:property-placeholder location="classpath:credentials.properties"/>
+    </beans>
+
+    <beans>
+    <mongo:mongo host="${mongo.host}" port="${mongo.port}">
+    </mongo:mongo>
+
+    <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+    <constructor-arg ref="mongo" />
+    <constructor-arg value="${mongo.dbname}" />
+    </bean>
+
+    <mongo:repositories base-package="com.mycompany.twitterauth.repositories" />
+
+    </beans>

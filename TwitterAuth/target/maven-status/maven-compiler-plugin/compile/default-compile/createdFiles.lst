@@ -1,0 +1,11 @@
+com/mycompany/twitterauth/twitterapimanager/exception/TwitterAPIException.class
+com/mycompany/twitterauth/entities/Constants.class
+com/mycompany/twitterauth/Main.class
+com/mycompany/twitterauth/entities/Trend.class
+com/mycompany/twitterauth/twitterapimanager/TwitterLoginProps.class
+com/mycompany/twitterauth/twitterapimanager/exception/TwitterNotAuthenticatedException.class
+com/mycompany/twitterauth/SpringMongoConfig.class
+com/mycompany/twitterauth/twitterapimanager/TwitterLoginManager.class
+com/mycompany/twitterauth/entities/Tweet.class
+com/mycompany/twitterauth/repositories/TrendRepository.class
+com/mycompany/twitterauth/processing/TrendsProcessing.class
